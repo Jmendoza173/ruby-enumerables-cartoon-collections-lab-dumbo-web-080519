@@ -20,6 +20,7 @@ def find_the_cheese(array)# code an argument here
   cheese_types.each{|i|
     if array.include?(i)
       cheese = i
+      break
     end
   }
   cheese
